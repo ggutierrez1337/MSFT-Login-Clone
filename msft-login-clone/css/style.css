@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins&family=Roboto:wght@300;400&display=swap');
+
+
+
+body {
+    /* background: #EFEFBB; 
+    background: -webkit-linear-gradient(to left, #D4D3DD, #EFEFBB);
+    background: linear-gradient(to left, #D4D3DD, #EFEFBB);  */
+    
+    background: rgb(233,215,209);
+    background: -webkit-linear-gradient(to left, rgba(211,224,210,1) 0%, rgba(233,215,209,1) );
+    background: linear-gradient(to left, rgba(233,215,209,1), rgba(211,224,210,1));
+    font-family: "Roboto";
+}
+h2 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+body.cb {
+    text-align: left;
+}
+
+a {
+    color: rgb(50, 140, 210);
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #fff;
+    max-width: 360px;
+    width: calc(100% - 40px);
+    padding: 50px;
+    min-height: 260px;
+    transform: translateY(70px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}    
+.msft {
+    height: 25px;
+    width: auto;
+}
+
+.email {
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.6);
+    height: 25px;
+    outline: none;
+    background-color: #e8f0fe;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    width: 95%;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+    color: fieldtext !important;
+}
+
+.text1 {
+    font-size: .8125rem;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    font-size: .8125rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.question-mark {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    min-width: 108px;
+    min-height: 32px;
+    position: absolute;
+    bottom: 35px;
+    right: 55px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #0a5a97;
+}
+
+.container2 {
+    padding: 12px 44px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    max-width: 372px;
+    transform: translateY(0px);
+    transform: translatex(1000px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    cursor: pointer;
+    position: relative;
+    left: -470px;
+    bottom: -90px;
+    color: rgb(90, 89, 89);
+
+}
+
+
+.title-img {
+    display: inline-block;
+    padding: 1px 15px;
+ }
